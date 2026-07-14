@@ -1,0 +1,13 @@
+<?php
+// File Koneksi PHP-MySQL
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "db_kepegawaian";
+
+$conn = mysqli_connect($host, $user, $pass, $db);
+
+if (!$conn) {
+    die("Koneksi ke database gagal: " . mysqli_connect_error());
+}
+?>
