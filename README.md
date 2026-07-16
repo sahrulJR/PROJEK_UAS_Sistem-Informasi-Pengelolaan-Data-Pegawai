@@ -5,9 +5,10 @@ Sistem Informasi Pengelolaan Data Pegawai adalah aplikasi berbasis web yang dira
 
 ## Anggota Kelompok
 1. muh. sahrul ibrahim - IK2511011
-2. Anggota 2 - 
-3. Anggota 3 - 
-4. Anggota 4 -
+2.	Alda Miranda - IK2511037
+3.	Sintha Lestari sasa - IK2511034
+4.	Rahel Rianti Suri - IK2511006
+
 
 ## pembagian tugas
 |nama|tugas|
