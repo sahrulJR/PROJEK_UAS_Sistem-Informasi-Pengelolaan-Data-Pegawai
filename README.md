@@ -19,11 +19,20 @@ Sistem Informasi Pengelolaan Data Pegawai adalah aplikasi berbasis web yang dira
 
 ##  Fitur Aplikasi
 
-### 1. Manajemen Data Utama (CRUD Engine)
-* **Dashboard Utama (`index.php`):** Menyajikan ringkasan tabel seluruh personel aktif dengan optimasi beban server melalui pembacaan data objek virtual *VIEW*.
-* **Pendaftaran Personel (`tambah.php` & `simpan.php`):** Modul input pegawai baru yang dilengkapi elemen pilihan dinamis (*Dynamic Select-Option*) yang ditarik langsung dari data master entitas `jabatan` dan `departemen`.
-* **Modifikasi Rekam Data (`edit.php` & `update.php`):** Mengambil rekam data lama secara otomatis berbasis parameter `GET['id']` (*Populating Form Fields*) untuk memperbarui baris data relasional secara instan.
-* **Penghapusan Data Aman (`hapus.php`):** Mekanisme membuang baris data terintegrasi yang terlindungi oleh sistem relasi *Foreign Key* agar tidak merusak struktur tabel anak.
+*Dashboard
+Tambah Data Pegawai
+Tampil Data Pegawai
+Edit Data Pegawai
+Hapus Data Pegawai
+Validasi Input
+Laporan Data
+Koneksi Database MySQL
+Query JOIN
+Query Aggregate
+View Database
+Index Database
+Hak Akses (DCL)
+Transaction Database
 
 ### 2. Rekapitulasi & Agregasi Finansial
 * **Pelaporan Gaji Terintegrasi (`laporan.php`):** Menyusun lembar slip rekapitulasi finansial bulanan gabungan dengan menggabungkan tabel `gaji` dan `pegawai` memanfaatkan query `INNER JOIN`.
@@ -47,22 +56,22 @@ Sistem Informasi Pengelolaan Data Pegawai adalah aplikasi berbasis web yang dira
 Sistem ini menerapkan basis data relasional tingkat **3rd Normal Form (3NF)** dengan mesin penyimpanan InnoDB untuk menjamin integritas referensial data (*On Delete Cascade / Set Null*).
 
 ### Skema Tabel Fisik:
-1. **`departemen`**: Mencatat informasi unit atau divisi kerja penempatan pegawai (`id_departemen`, `nama_departemen`, `lokasi`).
-2. **`jabatan`**: Mencatat master posisi pekerjaan beserta standar nilai gaji pokok (`id_jabatan`, `nama_jabatan`, `gaji_pokok`).
-3. **`pengguna`**: Mengelola kredensial hak akses operator untuk masuk ke sistem (`id_user`, `username`, `password`, `role`).
-4. **`pegawai`**: Mengelola identitas inti personalia pegawai (`id_pegawai`, `nip`, `nama`, `email`, `tanggal_lahir`, `id_jabatan`, `id_departemen`).
-5. **`gaji`**: Mencatat riwayat slip transaksi penggajian bulanan pegawai (`id_gaji`, `id_pegawai`, `bulan_tahun`, `tunjangan`, `potongan`, `total_gaji`).
+1. **`departemen`**
+2. **`jabatan`**
+3. **`pengguna`**
+4. **`pegawai`**
+5. **`gaji`**
 
 ---
 
 ##  Teknologi yang Digunakan
-* **PHP Native** (Logika Backend & Pemrosesan Data)
-* **MySQL / MariaDB** (Sistem Manajemen Basis Data Relasional)
-* **HTML5** (Struktur Kerangka Halaman Web)
-* **CSS3** (Tata Letak Desain & Estetika Visual)
-* **JavaScript** (Interaktivitas Klien & Jendela Konfirmasi Dialog)
-* **XAMPP v3.x** (Paket Server Lokal HTTP Apache & MySQL)
-* **GitHub** (Manajemen Versi Berkas & Kolaborator Proyek)
+* **PHP** 
+* **MySQL / MariaDB** 
+* **HTML5** 
+* **CSS3** 
+* **JavaScript** 
+* **XAMPP** 
+* **GitHub** 
 
 ---
 
