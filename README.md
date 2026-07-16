@@ -17,7 +17,7 @@ Sistem Informasi Pengelolaan Data Pegawai adalah aplikasi berbasis web yang dira
 |alda|membuat laporan|
 |sinta|membuat ERD dan laporan|
 
-## 🚀 Fitur Aplikasi
+##  Fitur Aplikasi
 
 ### 1. Manajemen Data Utama (CRUD Engine)
 * **Dashboard Utama (`index.php`):** Menyajikan ringkasan tabel seluruh personel aktif dengan optimasi beban server melalui pembacaan data objek virtual *VIEW*.
