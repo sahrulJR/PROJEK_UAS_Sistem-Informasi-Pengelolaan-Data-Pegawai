@@ -11,11 +11,11 @@ Sistem Informasi Pengelolaan Data Pegawai adalah aplikasi berbasis web yang dira
 
 
 ## pembagian tugas
-|nama|tugas|
-|muh. sahrul ibrahim| membuat code php, databese, dan README|
-|rahel|membuat laporan|
-|alda|membuat laporan|
-|sinta|membuat ERD dan laporan|
+*|nama|tugas|
+*|muh. sahrul ibrahim| membuat code php, databese, dan README|
+*|rahel|membuat laporan|
+*|alda|membuat laporan|
+*|sinta|membuat ERD dan laporan|
 
 ##  Fitur Aplikasi
 
