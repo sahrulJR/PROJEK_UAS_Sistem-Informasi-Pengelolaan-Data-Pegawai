@@ -106,6 +106,7 @@ SQL
 -- Menghitung total pengeluaran gaji perusahaan
 SELECT SUM(total_gaji) AS total_pengeluaran_gaji_perusahaan FROM gaji;
 
+
 -- Menghitung rata-rata gaji pokok jabatan
 SELECT AVG(gaji_pokok) AS rata_rata_gaji_pokok FROM jabatan;
 B. Tampilan Basis Data Pembuatan
