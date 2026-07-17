@@ -97,7 +97,7 @@ Masuk ke tab Impor , pilih file SQL berurutan mulai dari 01_create_database.sqlh
 Jalankan Aplikasi: Buka tab baru di browser Anda dan ketik tautan url berikut:
 
 Teks biasa
-http://localhost/nama-proyek/app/
+http://localhost/informasi-pegawai/app/
 ## Contoh Implementasi Query SQL (Agregasi, View, Transaksi & DCL)
 Berikut adalah baris query tingkat lebih lanjut dari implementasi database kami:
 
